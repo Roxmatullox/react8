@@ -1,0 +1,108 @@
+.admin-panel{
+  width: 15%;
+  display: flex;
+  padding-top: 60px;
+  padding-right: 10px;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+}
+
+.main-panel{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.main-panel .panel-links{
+  width: 100%;
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.main-panel .active {
+  background: var(--light-quaternary, rgba(0, 0, 0, 0.10));
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+hr{
+  width: 90%;
+}
+
+.secondary-panel{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.secondary-panel .panel-links{
+  width: 100%;
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.secondary-panel .active {
+  background: var(--light-quaternary, rgba(0, 0, 0, 0.10));
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subscriptions{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subscriptions .subscriptions-title{
+  color: rgba(0, 0, 0, 0.60);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subscriptions .panel-links{
+  width: 100%;
+  padding: 8px 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.subscriptions .active {
+  background: var(--light-quaternary, rgba(0, 0, 0, 0.10));
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

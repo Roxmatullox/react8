@@ -1,0 +1,49 @@
+main{
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 15%;
+  background: var(--light-search, rgba(0, 0, 0, 0.02));
+}
+
+  #home{
+    display: grid;
+    padding:0 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+  }
+
+  .YouTubeCard{
+    background-color: white;
+  }
+
+  .YouTubeCard .card-img img {
+    width: 100%;
+  }
+
+  .YouTubeCard .card-text{
+    display: flex;
+    gap: 15px;
+  }
+
+  .YouTubeCard .card-text{
+    padding: 5px;
+  }
+  
+  .card-text h4 {
+    overflow: hidden;
+    color: #000;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+  }
+
+  .card-text p {
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px; /* 158.333% */
+  }
+
