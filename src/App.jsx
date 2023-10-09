@@ -13,8 +13,8 @@ function App() {
         <Header setSearch={setSearch} />
         <AdminPanel/>
       <Routes >
-        <Route path="/" element={<Home search={search} />} />
-        <Route path="/home/:video" element={<Video/>} />
+        <Route path="" element={<Home search={search} />} />
+        <Route path="home/:video" element={<Video/>} />
       </Routes>
     </BrowserRouter>
   )

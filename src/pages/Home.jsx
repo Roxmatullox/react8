@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 import "./Home.css"
 import axios from "axios"
-import { NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Home = ({search}) => {
   const [posts , setPosts] = useState([])
@@ -23,7 +23,6 @@ const Home = ({search}) => {
   useEffect(()=>{
     async function getPosts() {
       try {
-        console.log(search);
         let {data:{items} , data} = await axios.get(`${search ? `https://www.googleapis.com/youtube/v3/search?key=AIzaSyDi25Q57Y-uKSZpVz6M8-NFBzcK-jBzz4Y&pageToken=${token}&maxResults=48&chart=mostPopular&part=snippet&q=${search}` :`https://www.googleapis.com/youtube/v3/videos?key=AIzaSyDi25Q57Y-uKSZpVz6M8-NFBzcK-jBzz4Y&pageToken=${token}&maxResults=48&chart=mostPopular&part=snippet,statistics`}`)
         setPosts(items)
         setData(data)
@@ -42,9 +41,9 @@ const Home = ({search}) => {
             return (
               <div key={post.id} className="YouTubeCard">
                 <div className="card-img">
-                  <NavLink to={`/home/${post.id}`}>
+                  <Link to={`home/${post.id}`}>
                     <img src={post.snippet.thumbnails.default.url} alt="" />
-                  </NavLink>
+                  </Link>
                 </div>
                 <div className="card-text">
                   <div className="channel-logo">
