@@ -7,7 +7,7 @@ import Explore from "../assets/Explore.svg";
 import Shorts from "../assets/Shorts.svg";
 import Subscriptions from "../assets/Subscriptions.svg";
 import Library from "../assets/Library.svg";
-import History from "../assets/HIstory.svg";
+import History from "../assets/History.svg";
 import Yourvideos from "../assets/yourvideos.svg";
 import Watchlater from "../assets/watchlater.svg";
 import Pop from "../assets/Pop.svg";
