@@ -21,7 +21,7 @@ const Video = () => {
   let realVideo = video1.items
 
   return (
-    <main>
+    <main className="video-section">
       <div className="video">
         {
           realVideo?.map((video)=>{
