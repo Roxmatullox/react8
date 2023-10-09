@@ -8,7 +8,7 @@ import Shorts from "../assets/Shorts.svg";
 import Subscriptions from "../assets/Subscriptions.svg";
 import Library from "../assets/Library.svg";
 import Yourvideos from "../assets/YourVideos.svg";
-import Watchlater from "../assets/watchlater.svg";
+import Watchlater from "../assets/Watchlater.svg";
 import Pop from "../assets/Pop.svg";
 
 
