@@ -7,7 +7,6 @@ import Explore from "../assets/Explore.svg";
 import Shorts from "../assets/Shorts.svg";
 import Subscriptions from "../assets/Subscriptions.svg";
 import Library from "../assets/Library.svg";
-// import History from "../assets/History.svg";
 import Yourvideos from "../assets/yourvideos.svg";
 import Watchlater from "../assets/watchlater.svg";
 import Pop from "../assets/Pop.svg";
@@ -30,7 +29,6 @@ const AdminPanel = () => {
       <hr />
       <div className="secondary-panel">
         <NavLink to="/library" className="nav-link panel-links" ><img src={Library} alt="Library" />Library</NavLink>
-        {/* <NavLink to="/history" className="nav-link panel-links" ><img src={History} alt="History" />History</NavLink> */}
         <NavLink to="/yourvideos" className="nav-link panel-links" ><img src={Yourvideos} alt="Yourvideos" />Your videos</NavLink>
         <NavLink to="/watchlater" className="nav-link panel-links" ><img src={Watchlater} alt="Watchlater" />Watch later</NavLink>
         <NavLink to="/pop" className="nav-link panel-links" ><img src={Pop} alt="Pop" />Pop</NavLink>
